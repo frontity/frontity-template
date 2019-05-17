@@ -1,0 +1,20 @@
+{
+  "name": "codesandbox-frontity",
+  "version": "1.0.0",
+  "description": "Frontity project",
+  "keywords": [
+    "frontity"
+  ],
+  "scripts": {
+    "build": "frontity build",
+    "serve": "frontity serve",
+    "start": "frontity dev"
+  },
+  "dependencies": {
+    "frontity": "^0.2.10",
+    "@frontity/core": "^0.3.6",
+    "@frontity/wp-source": "^0.1.5",
+    "@frontity/tiny-router": "^0.3.3",
+    "@frontity/mars-theme": "./packages/mars-theme"
+  }
+}
