@@ -1,41 +1,49 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { connect, styled } from "frontity";
+import Link from "./link";
 import List from "./list";
+import FeaturedMedia from "./featured-media";
 
-const Post = ({ state, actions }) => {
+const Post = ({ state, actions, libraries }) => {
   // Get info of current post.
-  const data = state.source.data(state.router.path);
+  const data = state.source.get(state.router.link);
   // Get the the post.
   const post = state.source[data.type][data.id];
   // Get the author.
   const author = state.source.author[post.author];
+  // Get a date for humans.
   const date = new Date(post.date);
 
   // Prefetch home posts and the list component.
-  actions.source.fetch("/");
-  List.preload();
+  useEffect(() => {
+    actions.source.fetch("/");
+    List.preload();
+  }, []);
 
   return data.isReady ? (
     <Container>
-      <Head>
-        <Title>{post.title.rendered}</Title>
+      <div>
+        <Title dangerouslySetInnerHTML={{ __html: post.title.rendered }} />
         {data.isPost && (
-          <>
-            <Author>
-              By <b>{author.name}</b>
-            </Author>
+          <div>
+            <StyledLink link={author.link}>
+              <Author>
+                By <b>{author.name}</b>
+              </Author>
+            </StyledLink>
             <Fecha>
               {" "}
               on <b>{date.toDateString()}</b>
             </Fecha>
-          </>
+          </div>
         )}
-      </Head>
-      <Body
-        dangerouslySetInnerHTML={{
-          __html: post.content.rendered
-        }}
-      />
+      </div>
+      {state.theme.featured.showOnPost && (
+        <FeaturedMedia id={post.featured_media} />
+      )}
+      <Body>
+        <libraries.html2react.Component html={post.content.rendered} />
+      </Body>
     </Container>
   ) : null;
 };
@@ -48,13 +56,15 @@ const Container = styled.div`
   padding: 24px;
 `;
 
-const Head = styled.div``;
-
 const Title = styled.h1`
   margin: 0;
   margin-top: 24px;
   margin-bottom: 8px;
   color: rgba(12, 17, 43);
+`;
+
+const StyledLink = styled(Link)`
+  padding: 15px 0;
 `;
 
 const Author = styled.p`
@@ -70,11 +80,15 @@ const Fecha = styled.p`
 `;
 
 const Body = styled.div`
-  line-height: 1.6em;
   color: rgba(12, 17, 43, 0.8);
+  word-break: break-word;
 
   * {
     max-width: 100%;
+  }
+
+  p {
+    line-height: 1.6em;
   }
 
   img {
@@ -84,7 +98,7 @@ const Body = styled.div`
   }
 
   figure {
-    margin: 24px 0;
+    margin: 24px auto;
     /* next line overrides an inline style of the figure element. */
     width: 100% !important;
 
@@ -108,5 +122,31 @@ const Body = styled.div`
   a {
     color: rgb(31, 56, 197);
     text-decoration: underline;
+  }
+
+  /* WordPress Core Align Classes */
+
+  @media (min-width: 420px) {
+    img.aligncenter,
+    img.alignleft,
+    img.alignright {
+      width: auto;
+    }
+
+    .aligncenter {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .alignright {
+      float: right;
+      margin-left: 24px;
+    }
+
+    .alignleft {
+      float: left;
+      margin-right: 24px;
+    }
   }
 `;

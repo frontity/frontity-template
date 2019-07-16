@@ -8,7 +8,6 @@ const settings = {
     }
   },
   "packages": [
-    "@frontity/tiny-router",
     {
       "name": "@frontity/mars-theme",
       "state": {
@@ -34,7 +33,11 @@ const settings = {
               "About Us",
               "/about-us/"
             ]
-          ]
+          ],
+          "featured": {
+            "showOnList": false,
+            "showOnPost": false
+          }
         }
       }
     },
@@ -42,11 +45,13 @@ const settings = {
       "name": "@frontity/wp-source",
       "state": {
         "source": {
-          "apiUrl": "https://test.frontity.io/wp-json"
+          "api": "https://test.frontity.io/wp-json"
         }
       }
-    }
+    },
+    "@frontity/tiny-router",
+    "@frontity/html2react"
   ]
 };
 
-module.exports = settings;
+export default settings;

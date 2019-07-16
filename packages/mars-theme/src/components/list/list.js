@@ -5,37 +5,43 @@ import Pagination from "./pagination";
 
 const List = ({ state }) => {
   // Get the data of the current list.
-  const data = state.source.data(state.router.path);
-  // Get the items of the current page.
-  const items = data.pages[state.router.page];
+  const data = state.source.get(state.router.link);
 
-  return items ? (
+  return (
     <Container>
+      {/* If the list is a taxonomy, we render a title. */}
       {data.isTaxonomy && (
-        <Taxonomy>
+        <Header>
           {data.taxonomy}: {state.source[data.taxonomy][data.id].name}
-        </Taxonomy>
+        </Header>
       )}
-      {items.map(({ type, id }) => {
+
+      {/* If the list is an author, we render a title. */}
+      {data.isAuthor && (
+        <Header>Author: {state.source.author[data.id].name}</Header>
+      )}
+
+      {/* Iterate over the items of the list. */}
+      {data.items.map(({ type, id }) => {
         const item = state.source[type][id];
-        // Render one Item for each one.
+        // Render one Item component for each one.
         return <Item key={item.id} item={item} />;
       })}
       <Pagination />
     </Container>
-  ) : null;
+  );
 };
 
 export default connect(List);
 
-const Container = styled.ul`
+const Container = styled.section`
   width: 800px;
   margin: 0;
   padding: 24px;
   list-style: none;
 `;
 
-const Taxonomy = styled.h3`
+const Header = styled.h3`
   font-weight: 300;
   text-transform: capitalize;
   color: rgba(12, 17, 43, 0.9);

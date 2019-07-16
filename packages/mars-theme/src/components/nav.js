@@ -4,9 +4,9 @@ import Link from "./link";
 
 const Nav = ({ state }) => (
   <Container>
-    {state.theme.menu.map(item => (
-      <Item key={item[0]} isSelected={state.router.path === item[1]}>
-        <Link path={item[1]}>{item[0]}</Link>
+    {state.theme.menu.map(([name, link]) => (
+      <Item key={name} isSelected={state.router.link === link}>
+        <Link link={link}>{name}</Link>
       </Item>
     ))}
   </Container>
@@ -14,7 +14,7 @@ const Nav = ({ state }) => (
 
 export default connect(Nav);
 
-const Container = styled.ul`
+const Container = styled.nav`
   list-style: none;
   display: flex;
   width: 848px;
@@ -22,10 +22,10 @@ const Container = styled.ul`
   box-sizing: border-box;
   padding: 0 24px;
   margin: 0;
-  overflow-x: scroll;
+  overflow-x: auto;
 `;
 
-const Item = styled.li`
+const Item = styled.div`
   padding: 0;
   margin: 0 16px;
   color: #fff;
