@@ -12,14 +12,14 @@
   },
   "prettier": {},
   "dependencies": {
-    "@frontity/core": "^1.4.1",
-    "@frontity/html2react": "^1.1.15",
+    "@frontity/core": "^1.5.2",
+    "@frontity/html2react": "^1.3.2",
     "@frontity/mars-theme": "file:./packages/mars-theme",
-    "@frontity/tiny-router": "^1.0.18",
-    "@frontity/wp-source": "^1.4.3",
-    "frontity": "^1.4.4"
+    "@frontity/tiny-router": "^1.1.1",
+    "@frontity/wp-source": "^1.6.3",
+    "frontity": "^1.5.3"
   },
   "devDependencies": {
-    "symlink-dir": "^3.1.1"
+    "symlink-dir": "^3.1.2"
   }
 }
