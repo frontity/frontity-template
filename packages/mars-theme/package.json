@@ -12,17 +12,13 @@
   "homepage": "https://frontity.org",
   "keywords": [
     "frontity",
-    "frontity-theme",
-    "frontity-amp"
+    "frontity-theme"
   ],
   "license": "Apache-2.0",
   "name": "@frontity/mars-theme",
-  "publishConfig": {
-    "access": "public"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/frontity/frontity.git"
   },
-  "version": "1.3.0"
+  "version": "1.4.0"
 }
