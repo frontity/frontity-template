@@ -4,7 +4,7 @@ const settings = {
     frontity: {
       url: "https://test.frontity.org",
       title: "Agarrala",
-      description: "Conecto a TVP"
+      description: "Conecto a TVP 2"
     }
   },
   packages: [
