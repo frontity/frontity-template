@@ -4,7 +4,7 @@ const settings = {
     frontity: {
       url: "https://test.frontity.org",
       title: "Agarrala",
-      description: "que no muerde"
+      description: "Conecto a TVP"
     }
   },
   packages: [
@@ -30,13 +30,7 @@ const settings = {
       name: "@frontity/wp-source",
       state: {
         source: {
-          
-          <!-- api: "https://test.frontity.org/wp-json" -->
-           
-          
-
           api: "https://new.tvpublica.com.ar/wp-json"
-          
         }
       }
     },
