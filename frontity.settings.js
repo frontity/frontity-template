@@ -14,10 +14,7 @@ const settings = {
         theme: {
           menu: [
             ["Home", "/"],
-            ["Nature", "/category/nature/"],
-            ["Travel", "/category/travel/"],
-            ["Japan", "/tag/japan/"],
-            ["About Us", "/about-us/"]
+            ["Noticias", "/category/noticias/"]
           ],
           featured: {
             showOnList: false,
