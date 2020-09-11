@@ -13,7 +13,7 @@ const settings = {
       state: {
         theme: {
           menu: [
-            ["Home", "/"],
+            ["Inicio", "/"],
             ["Noticias", "/category/noticias/"]
           ],
           featured: {
