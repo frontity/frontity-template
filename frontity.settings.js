@@ -28,7 +28,6 @@ const settings = {
       state: {
         source: {
           api: "http://api.tvpublica.com.ar/wp-json/"
-          api: "http://api.tvpublica.com.ar/wp-json/wp/v2/pages"
         }
       }
     },
