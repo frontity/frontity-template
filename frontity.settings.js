@@ -4,7 +4,7 @@ const settings = {
     frontity: {
       url: "https://test.frontity.org",
       title: "Hola",
-      description: "WordPress installation for Frontity development"
+      description: "Soy Ramo y me conecté a nuestro WordPress"
     }
   },
   packages: [
