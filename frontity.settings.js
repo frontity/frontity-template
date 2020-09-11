@@ -4,7 +4,7 @@ const settings = {
     frontity: {
       url: "https://test.frontity.org",
       title: "Hola",
-      description: "Soy Ramo y me conecté a nuestro WordPress"
+      description: "Prueba de conexión"
     }
   },
   packages: [
@@ -27,7 +27,7 @@ const settings = {
       name: "@frontity/wp-source",
       state: {
         source: {
-          api: "https://new.tvpublica.com.ar/wp-json/"
+          api: "http://api.tvpublica.com.ar/wp-json/"
         }
       }
     },
