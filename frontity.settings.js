@@ -27,7 +27,7 @@ const settings = {
       name: "@frontity/wp-source",
       state: {
         source: {
-          api: "http://api.tvpublica.com.ar/wp-json/wp/v2/posts/"
+          api: "https://new.tvpublica.com.ar/wp-json/"
         }
       }
     },
