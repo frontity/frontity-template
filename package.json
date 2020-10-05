@@ -7,7 +7,8 @@
     "frontity"
   ],
   "scripts": {
-    "dev": "frontity dev"
+    "dev": "frontity dev",
+    "build": "frontity build"
   },
   "prettier": {},
   "dependencies": {
