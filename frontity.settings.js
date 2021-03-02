@@ -2,7 +2,7 @@ const settings = {
   name: "codesandbox-frontity",
   state: {
     frontity: {
-      url: "https://test.frontity.org",
+      url: "https://mars.frontity.org",
       title: "Test Frontity Blog",
       description: "WordPress installation for Frontity development",
     },
@@ -20,8 +20,8 @@ const settings = {
             ["About Us", "/about-us/"],
           ],
           featured: {
-            showOnList: false,
-            showOnPost: false,
+            showOnList: true,
+            showOnPost: true,
           },
         },
       },
@@ -30,7 +30,7 @@ const settings = {
       name: "@frontity/wp-source",
       state: {
         source: {
-          api: "https://test.frontity.org/wp-json",
+          url: "https://test.frontity.org",
         },
       },
     },
