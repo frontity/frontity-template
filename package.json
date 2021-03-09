@@ -1,11 +1,9 @@
 {
-  "name": "codesandbox-frontity",
+  "name": "agdevelop",
   "version": "1.0.0",
   "private": true,
-  "description": "Frontity project",
-  "keywords": [
-    "frontity"
-  ],
+  "description": "",
+  "keywords": [],
   "scripts": {
     "dev": "frontity dev",
     "build": "frontity build"
