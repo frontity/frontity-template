@@ -23,6 +23,7 @@ const settings = {
             showOnList: true,
             showOnPost: true,
           },
+          autoPrefetch: "hover",
         },
       },
     },
