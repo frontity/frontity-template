@@ -33,11 +33,13 @@ You can use this template to start a project on either [CodeSandbox](https://cod
 
 - Add this to your `package.json`:
 
-```json
-{
-  "workspaces": ["packages/*"]
-}
-```
+  ```json
+  {
+    "workspaces": ["packages/*"]
+  }
+  ```
+
+  _This is necessary until they add support for `file:/packages...` syntax ([related GH issue](https://github.com/stackblitz/webcontainer-core/issues/107))._
 
 - Commit the change.
 - Go to https://stackblitz.com/
