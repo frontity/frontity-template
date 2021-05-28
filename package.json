@@ -10,6 +10,9 @@
     "dev": "frontity dev",
     "build": "frontity build"
   },
+  "workspaces": [
+    "packages/*"
+  ],
   "prettier": {},
   "dependencies": {
     "frontity": "^1.14.2",
