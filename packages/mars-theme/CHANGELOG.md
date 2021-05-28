@@ -1,5 +1,51 @@
 # Change Log
 
+## 1.5.2
+
+### Patch Changes
+
+- [`33b28ac9`](https://github.com/frontity/frontity/commit/33b28ac93f7120f41aa6d4cc3377114536b79faf) [#799](https://github.com/frontity/frontity/pull/799) Thanks [@DAreRodz](https://github.com/DAreRodz)! - Fix the `Post` component to render attachment pages properly.
+
+* [`bbcfff7c`](https://github.com/frontity/frontity/commit/bbcfff7c86999762f9b988190d161aa6c3c14343) [#797](https://github.com/frontity/frontity/pull/797) Thanks [@mburridge](https://github.com/mburridge)! - Updates image links in theme README.md files
+
+## 1.5.1
+
+### Patch Changes
+
+- [`888060c1`](https://github.com/frontity/frontity/commit/888060c11a0f458abe3a6e4b794733d3a49eb716) [#789](https://github.com/frontity/frontity/pull/789) Thanks [@mburridge](https://github.com/mburridge)! - Fixes broken links in README.md
+
+- Updated dependencies [[`62e60216`](https://github.com/frontity/frontity/commit/62e60216198111626d82566507f7f208323ffeee), [`944d5888`](https://github.com/frontity/frontity/commit/944d5888b8884585a39485002b896b4f9beaaab3), [`77e0a286`](https://github.com/frontity/frontity/commit/77e0a286ceb8274efb6a473c01c8f60d78b70225), [`f227d135`](https://github.com/frontity/frontity/commit/f227d1351234c0d458e0280a6a2f13a959ed576f)]:
+  - frontity@1.15.0
+  - @frontity/components@1.7.2
+
+## 1.5.0
+
+### Minor Changes
+
+- [`3ced7fdf`](https://github.com/frontity/frontity/commit/3ced7fdfd93004c210bb47692ffae265874828e7) [#670](https://github.com/frontity/frontity/pull/670) Thanks [@nicholasio](https://github.com/nicholasio)! - Update react imports in all packages (including themes) to removed unnecessary React Imports
+
+* [`120f4c3e`](https://github.com/frontity/frontity/commit/120f4c3e5ac138bc0b63c44144d7e8c26af584cb) [#642](https://github.com/frontity/frontity/pull/642) Thanks [@luisherranz](https://github.com/luisherranz)! - Start using the `Link` component of `@frontity/components`.
+
+### Patch Changes
+
+- [`5f329dab`](https://github.com/frontity/frontity/commit/5f329dabe9d67d0b3664938865491674ef798433) [#655](https://github.com/frontity/frontity/pull/655) Thanks [@mburridge](https://github.com/mburridge)! - Fix broken links in README files.
+
+- Updated dependencies [[`a5520f56`](https://github.com/frontity/frontity/commit/a5520f5605cfda2323e0c9ea4a553658a021fd15), [`01880c34`](https://github.com/frontity/frontity/commit/01880c34c111f55c23169adb7365ea9262e6cca8), [`3ced7fdf`](https://github.com/frontity/frontity/commit/3ced7fdfd93004c210bb47692ffae265874828e7), [`b288143b`](https://github.com/frontity/frontity/commit/b288143be0ad332c0bbd006e1da344c142635aee), [`5f329dab`](https://github.com/frontity/frontity/commit/5f329dabe9d67d0b3664938865491674ef798433), [`09f07484`](https://github.com/frontity/frontity/commit/09f07484c920e99d46290986d7a64b8f3c20e53c), [`e4221d4b`](https://github.com/frontity/frontity/commit/e4221d4b451268b5c951197a08b4021d50394c1b), [`9346f560`](https://github.com/frontity/frontity/commit/9346f560c4806483b914aa3fb7a37e373f48f712), [`5f329dab`](https://github.com/frontity/frontity/commit/5f329dabe9d67d0b3664938865491674ef798433), [`c5b0b8f7`](https://github.com/frontity/frontity/commit/c5b0b8f7e5ebfdf02f40ded7d7347a1d28039c2d), [`e94c0daa`](https://github.com/frontity/frontity/commit/e94c0daa5fa561384f4593939f25141e7bb0ada2)]:
+  - frontity@1.14.0
+  - @frontity/components@1.7.0
+  - @frontity/html2react@1.6.0
+
+## 1.4.4
+
+### Patch Changes
+
+- [`44f44e3f`](https://github.com/frontity/frontity/commit/44f44e3f2ba436236b65518ddac30cd4af57ea18) [#590](https://github.com/frontity/frontity/pull/590) Thanks [@luisherranz](https://github.com/luisherranz)! - Update TypeScript definitions.
+
+- Updated dependencies [[`362b02f1`](https://github.com/frontity/frontity/commit/362b02f1beb100ffb178a1d4e775e89b84b99ccc), [`54c588a9`](https://github.com/frontity/frontity/commit/54c588a9534d7c1761c0def8c83381696fd443fc), [`6b4bf82b`](https://github.com/frontity/frontity/commit/6b4bf82b5eee698f7ea8ea3b0bfd69a989caaba3), [`44f44e3f`](https://github.com/frontity/frontity/commit/44f44e3f2ba436236b65518ddac30cd4af57ea18)]:
+  - frontity@1.13.0
+  - @frontity/components@1.6.0
+  - @frontity/html2react@1.5.0
+
 ## 1.4.3
 
 ### Patch Changes
@@ -10,6 +56,15 @@
   - @frontity/components@1.3.3
   - frontity@1.9.0
   - @frontity/html2react@1.3.4
+
+## 1.4.3-infinite-scroll-beta.0
+
+### Patch Changes
+
+- Updated dependencies []:
+  - frontity@1.8.1-infinite-scroll-beta.0
+  - @frontity/components@1.3.3-infinite-scroll-beta.0
+  - @frontity/html2react@1.3.4-infinite-scroll-beta.0
 
 ## 1.4.2
 
