@@ -24,8 +24,7 @@ You can use this template to start a project on either [CodeSandbox](https://cod
 
 ### Using a new template
 
-- Click on this link: https://stackblitz.com/edit/frontity
-- Click on "Fork" to make it yours.
+- Click on this link: https://stackblitz.com/fork/frontity
 - Run `npm install`.
 - Run `npx frontity dev` to start Frontity.
 - Add changes.
