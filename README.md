@@ -4,7 +4,7 @@ This template enables you to start a project on either [CodeSandbox](https://cod
 
 ## CodeSandbox
 
-CodeSandbox is a great prototyping tool that you can use to bootstrap a project. You can use this template to create a new Frontity project on CodeSandbox, or if you already have a Frontity project on GitHub you can use that on CodeSandbox too. Instructions fo doing both follow.
+CodeSandbox is a great prototyping tool that you can use to bootstrap a project. You can use this template to create a new Frontity project on CodeSandbox, or if you already have a Frontity project on GitHub you can use that on CodeSandbox too. Instructions for doing both follow.
 
 ### Using this template for a new project
 
@@ -32,6 +32,10 @@ CodeSandbox is a great prototyping tool that you can use to bootstrap a project.
 - Make any changes you wish to further customise the project.
 
 ## StackBlitz
+
+StackBlitz is an online IDE where you can create projects with just one click. It automatically takes care of installing dependencies, compiling, bundling, and hot reloading as you type.
+
+You can use this template to create a new Frontity project on StackBlitz, or if you already have a Frontity project on GitHub you can use that on StackBlitz too. Instructions for doing both follow.
 
 ### Using this template for a new project
 
