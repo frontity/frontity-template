@@ -11,6 +11,7 @@ CodeSandbox is a great prototyping tool that you can use to bootstrap a project.
 - Click on this link: https://githubbox.com/frontity/frontity-template _(use CTRL/CMD + click to open in a new tab)_.
 - Wait until the Frontity application starts _(it could take a few seconds)_.
 - Click on "Fork" to make your own copy.
+
 ![Fork button](./readme-images/fork-button.png)
 - Make any changes you wish to customise the project.
 
