@@ -19,10 +19,12 @@ CodeSandbox is a great prototyping tool that you can use to bootstrap a project.
 ### Using your own project
 
 - Copy the URL of your GitHub repository.
-![Github URL](./readme-images/github-url.png)
+
+  ![Github URL](./readme-images/github-url.png)
 
 - Rename the domain from `github.com` to `githubbox.com`.
-![Github URL renamed](./readme-images/githubbox-url.png)
+
+  ![Github URL renamed](./readme-images/githubbox-url.png)
 
 - Enter the new URL in the browser's address bar and press 'Enter'.
 - Wait until the Frontity application starts _(it could take a few seconds)_.
@@ -35,14 +37,16 @@ CodeSandbox is a great prototyping tool that you can use to bootstrap a project.
 
 - Click on this link: https://stackblitz.com/fork/frontity _(use CTRL/CMD + click to open in a new tab)_.
 - Wait until the command prompt appears.
-![StackBlitz command prompt](./readme-images/sb-command-prompt.png)
+
+  ![StackBlitz command prompt](./readme-images/sb-command-prompt.png)
 
 - Run `npm install`.
 
-![StackBlitz npm install](./readme-images/sb-npm-install.png)
+  ![StackBlitz npm install](./readme-images/sb-npm-install.png)
 
 - Run `npx frontity dev` to start Frontity _(it could take a few seconds)_.
-![StackBlitz npx frontity dev](./readme-images/sb-npx-frontity-dev.png)
+
+  ![StackBlitz npx frontity dev](./readme-images/sb-npx-frontity-dev.png)
 
 - Make any changes you wish to customise the project.
 
