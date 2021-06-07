@@ -60,31 +60,36 @@ CodeSandbox is a great prototyping tool that you can use to bootstrap a project.
 - Commit the change _(and if necessary push to GitHub)_.
 - Go to https://stackblitz.com/
 - Create a new "Node.js" project.
-![StackBlitz new nodejs project](./readme-images/sb-new-node-project.png)
+
+  ![StackBlitz new nodejs project](./readme-images/sb-new-node-project.png)
 
 - Click on "Connect repository"
-![StackBlitz connect repository](./readme-images/sb-connect-repo.png)
+
+  ![StackBlitz connect repository](./readme-images/sb-connect-repo.png)
 
 - Click on "Import an existing repository"
 
-![StackBlitz import an existing repository](./readme-images/sb-import-repo.png)
+  ![StackBlitz import an existing repository](./readme-images/sb-import-repo.png)
 
 - Enter the URL of your repository. For example: https://github.com/frontity/frontity-template
-![StackBlitz repository URL](./readme-images/sb-repo-url.png)
+
+  ![StackBlitz repository URL](./readme-images/sb-repo-url.png)
 
 - Once the project is ready delete the `package-lock.json` file
-![StackBlitz delete package-lock.json](./readme-images/sb-delete-pkglock.png)
+
+  ![StackBlitz delete package-lock.json](./readme-images/sb-delete-pkglock.png)
 
 - Run `npm install` in the terminal box
 
-![StackBlitz npm install](./readme-images/sb-npm-install2.png)
+  ![StackBlitz npm install](./readme-images/sb-npm-install2.png)
 
 - A new `package-lock.json` file will be created
 
-![StackBlitz new package-lock.json created](./readme-images/sb-pkglock-created.png)
+  ![StackBlitz new package-lock.json created](./readme-images/sb-pkglock-created.png)
 
 - Start Frontity by running `npx frontity dev` in the terminal box  _(it could take a few seconds)_.
-![StackBlitz npx frontity dev](./readme-images/sb-npx-frontity-dev2.png)
+
+  ![StackBlitz npx frontity dev](./readme-images/sb-npx-frontity-dev2.png)
 ---
 
 ## Frontity Community
