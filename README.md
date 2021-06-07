@@ -1,56 +1,72 @@
 # Frontity Template
 
-You can use this template to start a project on either [CodeSandbox](https://codesandbox.io) or [StackBlitz](https://stackblitz.com/).
+This template enables you to start a project on either [CodeSandbox](https://codesandbox.io) or [StackBlitz](https://stackblitz.com/).
 
 ## CodeSandbox
 
-### Using a new template
+CodeSandbox is a great prototyping tool that you can use to bootstrap a project. You can use this template to create a new Frontity project on CodeSandbox, or if you already have a Frontity project on GitHub you can use that on CodeSandbox too. Instructions fo doing both follow.
 
-- Click on this link: https://githubbox.com/frontity/frontity-template
-- Wait until the Frontity application starts.
-- Click on "Fork" to make it yours.
-- Add changes.
+### Using this template for a new project
+
+- Click on this link: https://githubbox.com/frontity/frontity-template _(use CTRL/CMD + click to open in a new tab)_.
+- Wait until the Frontity application starts _(it could take a few seconds)_.
+- Click on "Fork" to make your own copy.
+![Fork button](./readme-images/fork-button.png)
+- Make any changes you wish to customise the project.
 
 ### Using your own project
 
 - Copy the URL of your GitHub repository.
+![Github URL](./readme-images/github-url.png)
 - Rename the domain from `github.com` to `githubbox.com`.
-- Load the new URL in the browser.
-- Wait until the Frontity application starts.
-- Click on "Fork".
-- Add changes.
+![Github URL renamed](./readme-images/githubbox-url.png)
+- Enter the new URL in the browser's address bar and press 'Enter'.
+- Wait until the Frontity application starts _(it could take a few seconds)_.
+- Click on "Fork" to make your own copy _(see above)_.
+- Make any changes you wish to further customise the project.
 
 ## StackBlitz
 
-### Using a new template
+### Using this template for a new project
 
-- Click on this link: https://stackblitz.com/fork/frontity
+- Click on this link: https://stackblitz.com/fork/frontity _(use CTRL/CMD + click to open in a new tab)_.
+- Wait until the command prompt appears.
+![StackBlitz command prompt](./readme-images/sb-command-prompt.png)
 - Run `npm install`.
-- Run `npx frontity dev` to start Frontity.
-- Add changes.
+![StackBlitz npm install](./readme-images/sb-npm-install.png)
+- Run `npx frontity dev` to start Frontity _(it could take a few seconds)_.
+![StackBlitz npx frontity dev](./readme-images/sb-npx-frontity-dev.png)
+- Make any changes you wish to customise the project.
 
 ### Using your own project
 
-- Add this to your `package.json`:
+- Add the following to your `package.json`:
 
   ```json
   {
     "workspaces": ["packages/*"]
   }
   ```
-
   _This is necessary until they add support for `file:/packages...` syntax ([related GH issue](https://github.com/stackblitz/webcontainer-core/issues/107))._
 
-- Commit the change.
+- Commit the change _(and if necessary push to GitHub)_.
 - Go to https://stackblitz.com/
-- Start a new project.
-- Choose "Node.js"
+- Create a new "Node.js" project.
+![StackBlitz new nodejs project](./readme-images/sb-new-node-project.png)
 - Click on "Connect repository"
+![StackBlitz connect repository](./readme-images/sb-connect-repo.png)
 - Click on "Import an existing repository"
+![StackBlitz import an existing repository](./readme-images/sb-import-repo.png)
 - Enter the URL of your repository. For example: https://github.com/frontity/frontity-template
-- Run `npm install`
-- Start Frontity using `npx frontity dev`
-
+![StackBlitz repository URL](./readme-images/sb-repo-url.png)
+- Once the project is ready delete the `package-lock.json` file
+![StackBlitz delete package-lock.json](./readme-images/sb-delete-pkglock.png)
+- Run `npm install` in the terminal box
+![StackBlitz npm install](./readme-images/sb-npm-install2.png)
+- A new `package-lock.json` file will be created
+![StackBlitz new package-lock.json created](./readme-images/sb-pkglock-created.png)
+- Start Frontity by running `npx frontity dev` in the terminal box  _(it could take a few seconds)_.
+![StackBlitz npx frontity dev](./readme-images/sb-npx-frontity-dev2.png)
 ---
 
 ## Frontity Community
