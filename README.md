@@ -75,11 +75,11 @@ CodeSandbox is a great prototyping tool that you can use to bootstrap a project.
 
   ![StackBlitz import an existing repository](./readme-images/sb-import-repo.png)
 
-- Enter the URL of your repository. For example: https://github.com/frontity/frontity-template
+- Enter the URL of your repository. For example: https://github.com/frontity/frontity-template _(you may need to authenticate you GitHub account at this point)_.
 
   ![StackBlitz repository URL](./readme-images/sb-repo-url.png)
 
-- Once the project is ready delete the `package-lock.json` file
+- Once the project is ready delete the `package-lock.json` file _(if it exists)_.
 
   ![StackBlitz delete package-lock.json](./readme-images/sb-delete-pkglock.png)
 
