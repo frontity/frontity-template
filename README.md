@@ -35,10 +35,13 @@ CodeSandbox is a great prototyping tool that you can use to bootstrap a project.
 - Click on this link: https://stackblitz.com/fork/frontity _(use CTRL/CMD + click to open in a new tab)_.
 - Wait until the command prompt appears.
 ![StackBlitz command prompt](./readme-images/sb-command-prompt.png)
+
 - Run `npm install`.
 ![StackBlitz npm install](./readme-images/sb-npm-install.png)
+
 - Run `npx frontity dev` to start Frontity _(it could take a few seconds)_.
 ![StackBlitz npx frontity dev](./readme-images/sb-npx-frontity-dev.png)
+
 - Make any changes you wish to customise the project.
 
 ### Using your own project
