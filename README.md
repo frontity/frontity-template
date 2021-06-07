@@ -90,6 +90,7 @@ CodeSandbox is a great prototyping tool that you can use to bootstrap a project.
 - Start Frontity by running `npx frontity dev` in the terminal box  _(it could take a few seconds)_.
 
   ![StackBlitz npx frontity dev](./readme-images/sb-npx-frontity-dev2.png)
+
 ---
 
 ## Frontity Community
