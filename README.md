@@ -19,8 +19,10 @@ CodeSandbox is a great prototyping tool that you can use to bootstrap a project.
 
 - Copy the URL of your GitHub repository.
 ![Github URL](./readme-images/github-url.png)
+
 - Rename the domain from `github.com` to `githubbox.com`.
 ![Github URL renamed](./readme-images/githubbox-url.png)
+
 - Enter the new URL in the browser's address bar and press 'Enter'.
 - Wait until the Frontity application starts _(it could take a few seconds)_.
 - Click on "Fork" to make your own copy _(see above)_.
