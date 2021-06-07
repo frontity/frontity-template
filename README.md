@@ -66,6 +66,7 @@ CodeSandbox is a great prototyping tool that you can use to bootstrap a project.
 ![StackBlitz connect repository](./readme-images/sb-connect-repo.png)
 
 - Click on "Import an existing repository"
+
 ![StackBlitz import an existing repository](./readme-images/sb-import-repo.png)
 
 - Enter the URL of your repository. For example: https://github.com/frontity/frontity-template
@@ -75,9 +76,11 @@ CodeSandbox is a great prototyping tool that you can use to bootstrap a project.
 ![StackBlitz delete package-lock.json](./readme-images/sb-delete-pkglock.png)
 
 - Run `npm install` in the terminal box
+
 ![StackBlitz npm install](./readme-images/sb-npm-install2.png)
 
 - A new `package-lock.json` file will be created
+
 ![StackBlitz new package-lock.json created](./readme-images/sb-pkglock-created.png)
 
 - Start Frontity by running `npx frontity dev` in the terminal box  _(it could take a few seconds)_.
