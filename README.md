@@ -79,7 +79,7 @@ You can use this template to create a new Frontity project on StackBlitz, or if 
 
   ![StackBlitz import an existing repository](./readme-images/sb-import-repo.png)
 
-- Enter the URL of your repository. For example: https://github.com/frontity/frontity-template _(you may need to authenticate you GitHub account at this point)_.
+- Enter the URL of your repository. For example: https://github.com/frontity/frontity-template _(you may need to authenticate your GitHub account at this point)_.
 
   ![StackBlitz repository URL](./readme-images/sb-repo-url.png)
 
