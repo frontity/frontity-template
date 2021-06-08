@@ -1,6 +1,6 @@
 # Frontity Template
 
-This template enables you to start a project on either [CodeSandbox](https://codesandbox.io) or [StackBlitz](https://stackblitz.com/).
+This template provides a convenient way for you to quickly and easily spin up a Frontity project on either [CodeSandbox](https://codesandbox.io) or [StackBlitz](https://stackblitz.com/).
 
 ## CodeSandbox
 
